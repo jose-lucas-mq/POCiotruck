@@ -31,7 +31,6 @@ public class SecurityAnalystController {
 
     @PostMapping
     public String create(@RequestBody SecurityAnalyst securityAnalyst) {
-
         repository.save(securityAnalyst);
         return "Analista Criado com sucesso";
 

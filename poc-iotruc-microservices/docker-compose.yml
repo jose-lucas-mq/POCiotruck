@@ -7,7 +7,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: iotruckWins
       MYSQL_DATABASE: iotruckdb
-      MYSQL_USER: iotruck
+      MYSQL_USER: root
       MYSQL_PASSWORD: iotruckWins
     ports:
       - "3306:3306"
